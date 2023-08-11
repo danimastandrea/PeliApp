@@ -1,0 +1,92 @@
+
+.card{
+  width: 18rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  margin-bottom: 3rem;
+  border-radius: 3%;
+}
+.card:hover{ 
+    transform: scale(1.1); 
+   
+}
+.input-group form{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.input{
+  width: 280px;
+  border-radius: 3%;
+  padding: 14px 20px 14px 20px;
+  font-size: 25px;
+}
+.btn{
+  
+   font-size: 25px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+  margin-top: 20px;
+ 
+  color: #fff;
+  background-color: red;
+  width: 200px;
+  margin-bottom: 40px;
+
+  padding: 14px 20px 14px 20px;
+ 
+}
+.btn:hover{
+  background-color: #fff;
+  color: red;
+ }
+.sectionPeli{
+  background-color: #1a1a1a;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+  &{
+    background-position-x: center!important;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    background-image:url(/img/movies.jpg);
+    background-position-y: bottom!important;
+   background-attachment: fixed;
+  
+    }
+    @media only screen and (max-width: 768px) {
+    &{
+    background-image: none;
+    }
+    }
+}
+
+
+.card-body {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  max-width: 1600px;
+  margin: auto;
+  justify-content: space-between;
+}
+img{
+  width: 13rem;
+  margin-bottom: 30px;
+}

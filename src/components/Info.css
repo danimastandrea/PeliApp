@@ -1,0 +1,17 @@
+.infoContainer{
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.infoContainer h2{
+    color: #fff;
+    font-size: 45px;
+}
+.infoContainer p{
+    color: #fff;
+    font-size: 25px;
+}
